@@ -47,10 +47,7 @@ mae = round(mean_absolute_error(y_test, predicted), 2)
 
 # question 14
 
-from sklearn.metrics import mean_squared_error
-
-mse = round(mean_squared_error(y_test, predicted), 2)
-# mse = 0.01
+print(' residual sum of squares is : '+ str(np.sum(np.square(predicted - y_test))))
 
 # 15
 
